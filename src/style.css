@@ -1,3 +1,13 @@
+:root {
+    --main-color: #E8D280;
+    --first-color:#433F63;
+    --second-color:#B55E2E;
+    --third-color:white;
+    --fourth-color:#611910;
+  }
+  body{
+      background-color: var(--main-color);
+}
 #links{
     width: 900px;
     margin: 20px auto;
@@ -8,22 +18,22 @@
 #links a{
     font-size: 20px;
     text-decoration: none;
-    color: #433F63;
+    color: var(--first-color);
 }
 #links a:hover {
-    color: #B55E2E;
+    color: var(--second-color);
 }
 
 #links a:active {
-    color: #E8D280;
+    color: var(--fourth-color);
 }
 
 h1{
     font-size: 54px;
     text-align: center;
-    color: #433F63;
-    background-color: white;
-    padding: 20px 30px;
+    color: var(--first-color);
+    background-color: var(--third-color);
+    padding: 20px 0;
     border-radius: 7px;
 }
 
@@ -31,26 +41,32 @@ h1{
 .wrapper{
     width: 900px;
     height: auto;
-    background-color: #B55E2E;
-    color: white;
+    background-color: var(--second-color);
+    color: var( --third-color);
     margin: 40px auto;
     padding: 25px 20px;
     border-radius: 7px;
-    font-size: 18px;
+    
     line-height: 1.5;
 }
-
+p, .mail{
+    margin: 50px 40px;
+    font-size: 18px;
+}
 
 img{
     width: 600px;
-    margin: 15px auto;
+    margin: 0 auto;
 }
 
-.mail{
-    margin: 30px auto;
-
+.description{
+    color: var(--fourth-color);
+    margin: 5px 0 15px 135px;
+    font-weight: 700;
 }
+
 .mailTo{
-    color: #433F63;
+    color: var(--fourth-color);
     text-decoration: none;
+    font-weight: 700;
 }
