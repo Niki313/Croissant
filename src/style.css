@@ -1,0 +1,56 @@
+#links{
+    width: 900px;
+    margin: 20px auto;
+    font-weight: 700;
+    
+}
+
+#links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #433F63;
+}
+#links a:hover {
+    color: #B55E2E;
+}
+
+#links a:active {
+    color: #E8D280;
+}
+
+h1{
+    font-size: 54px;
+    text-align: center;
+    color: #433F63;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 7px;
+}
+
+
+.wrapper{
+    width: 900px;
+    height: auto;
+    background-color: #B55E2E;
+    color: white;
+    margin: 40px auto;
+    padding: 25px 20px;
+    border-radius: 7px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+img{
+    width: 600px;
+    margin: 15px auto;
+}
+
+.mail{
+    margin: 30px auto;
+
+}
+.mailTo{
+    color: #433F63;
+    text-decoration: none;
+}
